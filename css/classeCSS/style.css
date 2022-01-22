@@ -1,0 +1,38 @@
+p {
+    font-size:50px;
+    color:red;
+    
+}
+.parrafo {
+    font-size: 100px;
+    text-align: center;
+    color: aqua;
+}
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: #333;
+}
+.main-nav__item {
+    display: inline-block;
+
+}
+
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover {
+    color: blue;
+}
+.main-nav__item a:active {
+    color: red;
+}
+.main-nav__item a::after {
+    content: " | ";
+    padding-left: 10px;
+}
