@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Especificidad & Combinadores</title>
+    <!-- 
+        !important=     1.0.0.0.0
+        Inline style=   0.1.0.0.0 (dentro del html)
+        ID=             0.0.1.0.0
+        class=          0.0.0.1.0
+        tag=            0.0.0.0.1
+    -->
+</head>
+<body>
+    <header class="page-header">
+        <h1 id="page-title" class="page-header__title">Soy el título</h1>
+        <nav>
+            <ul id="main-nav" class="page-header__nav">
+                <li><a href="">Home</a></li>
+                <li><a href="">Amigos</a></li>
+                <li><a href="">Enemigos</a></li>
+                <li><a href="">Espectadores</a></li>
+            </ul>
+                
+        </nav>
+        <main>
+            <!-- <section>
+                <h2>Soy un H2</h2>
+                <p>Soy un párrafo</p>
+                <h2>Soy otro H2</h2>
+                <h3>Soy un H3</h3>
+                <p>Soy un párrafo</p>
+            </section>         -->
+            <section>
+                <div>
+                    <article>
+                        <p>Soy el texto de muestra</p>
+                    </article>
+                    <article>
+                        <p>Soy el 2º texto de muestra</p>
+                    </article>
+                </div>    
+                <div>
+                    <article>
+                        <span>Soy el Span</span>
+                    </article>
+                </div>
+                <article>
+                    <p>No estoy en un div</p>
+                </article>    
+            </section>
+        </main>
+        
+        
+    </header>
+</body>
+</html>
