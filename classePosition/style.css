@@ -3,7 +3,11 @@
     padding: 0px;
     margin: 0px;
 }
-.main_div {
+html {
+    text-shadow: 62.5%;
+}   
+
+/* .main_div {
     border: 2px dotted black;
     display: inline-block;
 }
@@ -17,4 +21,44 @@
 #box_2 {
     background-color: green;
     position: absolute;
+} */ 
+
+.div_box_1 {
+    background-color: red;
+    position: absolute;
+    border: 1px solid black;    
+    border-radius: 15px; 
+    width: 25%;
+    height: 10%;
+    bottom: 70%;
+    margin-left: 38.5%;
+}
+.div_box_1__title {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    margin-top: 2rem;
+    
+        
+}
+.div_box_2 {
+    position: inherit;
+    background-color: grey;
+    width: 50%;
+    height: 50vh;
+    border-radius: 40px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 22.5%;
+    
+}
+.div_box_2__content {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 5em;
+    padding: 2rem;    
+   
+  
+    
+
 }
