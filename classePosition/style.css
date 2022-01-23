@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.main_div {
+    border: 2px dotted black;
+    display: inline-block;
+}
+.box {
+    display: inline-block;
+    background-color: red;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+#box_2 {
+    background-color: green;
+    position: absolute;
+}
