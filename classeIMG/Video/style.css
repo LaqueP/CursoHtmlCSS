@@ -1,0 +1,14 @@
+.figure_home {
+    max-width: 25%;
+    max-height: 25%;
+    border: 1px solid black;
+    display: flex;
+}
+figcaption {
+    font-size: 150%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.section_h1 {
+    font-size: 200px;
+}
